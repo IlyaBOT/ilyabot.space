@@ -1,0 +1,72 @@
+:root > * {
+  /* Top bar and tabs */
+  --md-primary-fg-color: #a039a0;
+  --md-footer-bg-color: #a039a0;
+
+  /* Accent */
+  --md-typeset-a-color: #a039a0;
+  --md-accent-fg-color: #a039a0;
+}
+
+[data-md-color-scheme="slate"] {
+  color-scheme: dark;
+
+  /* Background */
+  --md-default-bg-color: #0a030a;
+
+  /* Top bar and tabs */
+  --md-primary-fg-color: #1d0a1d;
+  --md-footer-bg-color: #a039a0;
+  --md-footer-bg-color--dark: #1d0a1d;
+
+  /* Accent */
+  --md-typeset-a-color: #a039a0;
+  --md-accent-fg-color: #a039a0;
+
+  /* Text */
+  --md-default-fg-color: #e1e1e1;
+
+  /* Code */
+  --md-code-bg-color: #0a030a;
+  --md-code-fg-color: #ffffff;
+}
+
+.md-typeset code {
+  border-radius: 0.3rem;
+}
+
+.md-content__inner > p:nth-child(3) > img:nth-child(1) {
+  border-radius: 5%;
+}
+
+.md-main__inner {
+  max-width: 98%;
+}
+
+/* Light theme */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: #a039a0;
+  opacity: 0.75;
+}
+
+.md-grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+}
+
+.md-header__inner {
+  max-width: 95%;
+}
+
+/* Dark theme */
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: #a039a0;
+  opacity: 1;
+}

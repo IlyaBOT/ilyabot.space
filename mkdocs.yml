@@ -1,0 +1,98 @@
+site_name: IlyaBOT Homepage
+site_author: IlyaBOT
+site_description: >-
+  IlyaBOT Homepage and Blog.
+
+extra_css:
+  - stylesheets/extra.css
+
+# Configuration
+theme:
+  custom_dir: 'overrides/'    # customization of the theme lives
+  logo: assets/logo.png    # logo shared by all languages
+  favicon: assets/favicon.png  # favicon shared by all languages
+  name: material
+  # custom_dir: material/overrides
+  language: ru
+  font: false # No Google Fonts
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+
+# Plugins
+plugins:
+  - blog:
+      post_url_format: "{file}"
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/ilyabot2
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/IlyaBOOT
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.ml/@IlyaBOT
+
+# Extensions
+markdown_extensions:
+# Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+# Page tree
+nav:
+  - 'Обо мне': 'index.md'
+  - 'Блог':
+    - 'blog/index.md'
+  - 'Моё оборудование':
+    - 'myHardware/index.md'
+  - 'Контакты': 'contacts/index.md'
