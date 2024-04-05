@@ -13,7 +13,7 @@ pip install -r requirements.txt
 #### Install on Windows:
 ```bash
 python -m venv venv
-env\Scripts\activate.bat
+venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
