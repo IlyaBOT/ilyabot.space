@@ -245,6 +245,27 @@ HP не были бы HP если бы не впихнули сюда списо
     <figcaption>Чипы памяти на обратной стороне платы, под клавиатурой</figcaption>
     </figure>
 
+## Превращение в Hackintosh (Установка MacOS High Sierra) :flushed:
+[![MacOS High Sierra](hacos/photo_2024-04-01_22-52-31.jpg){align=right width="384"}](hacos/photo_2024-04-01_22-52-31.jpg)
+Вы думали это всё? Да как бы ни так. Я решил упороться с этим ноутом по полной и вспомнил что на платформе Sandy Bridge когда-то выходила серия MacBook Pro 2011 года, а значит, на этого монстра тоже можно *вкостылить* (Именно что вкостылить, это ж Legacy, так ещё и от HP...) самую настоящую MacOS! <br>
+Почему мой выбор пал на столь старую версию системы? MacOS 10.13 (High Sierra) ведь не поддерживается уже целой кучей софта, скажите вы, и будете чертовски правы! Фуррифокс *(firefox)* и телеграм последней версии у меня установить получилось, а вот дискорд попросил уже MacOS 10.15...
+[![MacOS Intel CPUs Table](hacos/photo_2024-03-28_23-01-40.jpg){align=right width="256"}](hacos/photo_2024-03-28_23-01-40.jpg)
+Так вот, связан столь странный выбор ОС с тем, что Sandy Bridge прекрасно поддерживает даже последнюю на момент написания статьи Mac OS 14 (Sonoma), а вот встроенная Intel HD Graphics 3000 поддерживается максимум MacOS 10.13 (High Sierra). Печально, но факт. Если бы у меня была другая видяха, хотя бы Gt710, то подключив её по [eGPU](#egpu) я смог бы запустить более современную систему, но увы, в коллекции у меня только Gt210 и RTX 3060 в моём ПК.<br>
+В общем, было решено не морочить себе голову и ставить то что есть. По итогу провозились мы втроём 3 дня, и кое как завели эту шайтан машину дьявола. Проблемы возникли там, где их совсем не ждали, если честно.<br>
+В общем, вот список всего что мне удалось завести, а что так и не заработало даже после бессоных ночей ковыряния кекстов и патчей:
+<center>
+
+|         Завелось         |            Не завелось             |
+| :-------------------: | :---------------------------: |
+| PS/2 встроенная клавиатура (Целый день её заводили, и таки завели!) | **`PS/2 Synaptic TouchPad`** (Завёлся, но очень криво и плохо...) |
+| Intel HD Graphics 3000 (Есть баги с фреймбуффером, акселлерацией и 3D приложениями, но оно всё же скорее работает чем не работает) | Wi-Fi/Bt модуль. (Atheros вроде никогда не ставился в устройства Apple, по крайней мере, кекстов под мою сетевуху я не нашёл, зато нашёл под Broadcom которая у меня есть, но не работает потому что #HPмомент с вайтлистом в BIOS...) |
+| Кодек **`IDT 92HD81B1X`** (Пришлось ставить устаревший аудиодрайвер VoodooHDA) | USB. (Вообще никак. Ни один порт. Ни с помощью USBinjectAll, ни с помощью маппинга портов, ни с помощью патча HPET.) |
+| Подсветка матрицы |  |
+| Сеть Realtek 8111 |  |
+
+</center>
+Остальное уже по мелочи, но либо отсутсвует в ноутбуке *(Press F to вебка и микрофоны)*, либо работает.
+
 ## Драйверы и утилиты
 !!! info "**Все драйверы и утилиты скачаны с официального сайта HP**"
 !!! warning "**Скачанные драйверы и утилиты предназначены для Windows 7, но большинство вполне работает и на Windows 10.**"
@@ -284,7 +305,7 @@ HP не были бы HP если бы не впихнули сюда списо
     <center>
         [**`Renesas Electronics USB 3.0 Host Controller Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Renesas Electronics USB 3.0 Host Controller Driver.exe>)
     </center>
-=== "Драйверы сети"
+=== "Сетевые драйвера"
     <center>
         [**`Broadcom Wireless LAN Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Broadcom Wireless LAN Driver.exe>)
     </center>
@@ -312,6 +333,56 @@ HP не были бы HP если бы не впихнули сюда списо
     <center>
         [**`Atheros 2011 Wireless LAN Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Atheros 2011 Wireless LAN Driver.exe>)
     </center>
+=== "Драйвера накопителей"
+    <center>
+        [**`Realtek Card Reader Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Realtek Card Reader Driver.exe>)
+    </center>
+    <center>
+        [**`Intel Rapid Storage Technology Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Rapid Storage Technology Driver.exe>)
+    </center>
+=== "ПО"
+    <center>
+        [**`HP Recovery Manager Application`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Recovery Manager Application.exe>)
+    </center>
+=== "Мультимедийное ПО"
+    <center>
+        [**`Cyberlink YouCam Software`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Cyberlink YouCam Software.exe>)
+    </center>
+    <center>
+        [**`CyberLink PowerDVD 10 (2D/3D)`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/CyberLink PowerDVD 10 (2D 3D).exe>)
+    </center>
+    <center>
+        [**`Intel Wireless Display Software`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Wireless Display Software.exe>)
+    </center>
+=== "Защитное ПО"
+    <center>
+        [**`HP ProtectSmart Hard Drive Protection`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP ProtectSmart Hard Drive Protection.exe>)
+    </center>
+    <center>
+        [**`Symantec Validation and ID Protection Service (VIP) Access SDK`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Symantec Validation and ID Protection Service (VIP) Access SDK.exe>)
+    </center>
+    <center>
+        [**`HP SimplePass Identity Protection 2011 Software`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP SimplePass Identity Protection 2011 Software.exe>)
+    </center>
+=== "Программные решения"
+    <center>
+        [**`HP CoolSense Technology`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP CoolSense Technology.exe>)
+    </center>
+    <center>
+        [**`HP Launch Box`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Launch Box.exe>)
+    </center>
+    <center>
+        [**`HP Power Manager Utility Software`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Power Manager Utility Software.exe>)
+    </center>
+    <center>
+        [**`HP Software Framework`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Software Framework.exe>)
+    </center>
+    <center>
+        [**`HP Quick Launch Software`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Quick Launch Software.exe>)
+    </center>
+    <center>
+        [**`HP Application Assistant Software`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Application Assistant Software.exe>)
+    </center>
 
 ### Утилиты
 
@@ -327,7 +398,24 @@ HP не были бы HP если бы не впихнули сюда списо
     <center>
         [**`HP Unified Extensible Firmware Interface (UEFI) Support Environment`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Unified Extensible Firmware Interface (UEFI) Support Environment.exe>)
     </center>
-
+=== "Прошивки (накопителей)"
+    <center>
+        [**`Seagate Hard Drive Firmware Update (0006HPM1 Rev.A)`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Seagate Hard Drive Firmware Update.exe>)
+    </center>
+    <center>
+        [**`Intel Solid State Drive (SSD) Firmware Update (2CV102M3/2CV102M6/4PC103)`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Solid State Drive (SSD) Firmware Update.exe>)
+    </center>
+=== "Улучшения операционной системы и QFE"
+    <center>
+        [**`Essential System Updates`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Essential System Updates.exe>)
+    </center>
+=== "Инструменты и утилиты"
+    <center>
+        [**`Vodafone 3G Modem System Update`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Vodafone 3G Modem System Update.exe>)
+    </center>
+    <center>
+        [**`HP On-Screen Display Utility`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP On-Screen Display Utility.exe>)
+    </center>
 
 ## Инструкция, сервис-мануал и схема
 
