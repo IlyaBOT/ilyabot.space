@@ -252,80 +252,80 @@ HP не были бы HP если бы не впихнули сюда списо
 
 === "Аудио драйвер"
     <center>
-        [**`IDT High Definition (HD) Audio Driver`**](<drivers-tools/IDT High Definition (HD) Audio Driver.exe>)
+        [**`IDT High Definition (HD) Audio Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/IDT High Definition (HD) Audio Driver.exe>)
     </center>
     <center>
-        [**`Conexant USB Audio Driver`**](<drivers-tools/Conexant USB Audio Driver.exe>)
+        [**`Conexant USB Audio Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Conexant USB Audio Driver.exe>)
     </center>
 === "Драйвер чипсета"
     <center>
-        [**`Intel Management Engine Interface (MEI) Driver`**](<drivers-tools/Intel Management Engine Interface (MEI) Driver.exe>)
+        [**`Intel Management Engine Interface (MEI) Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Management Engine Interface (MEI) Driver.exe>)
     </center>
     <center>
-        [**`Intel Chipset Installation Utility and Driver`**](drivers-tools/Intel Chipset Installation Utility and Driver.exe)
+        [**`Intel Chipset Installation Utility and Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Chipset Installation Utility and Driver.exe>)
     </center>
 === "Графический драйвер"
     <center>
-        [**`AMD High-Definition Graphics Driver`**](drivers-tools/AMD High-Definition Graphics Driver.exe)
+        [**`AMD High-Definition Graphics Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/AMD High-Definition Graphics Driver.exe>)
     </center>
     <center>
-        [**`AMD/Intel Switchable High-Definition (HD) Graphics Driver`**](drivers-tools/AMD_Intel Switchable High-Definition (HD) Graphics Driver.exe)
+        [**`AMD/Intel Switchable High-Definition (HD) Graphics Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/AMD_Intel Switchable High-Definition (HD) Graphics Driver.exe>)
     </center>
 === "Драйверы устройств ввода"
     <center>
-        [**`Validity Fingerprint Sensor Driver`**](drivers-tools/Validity Fingerprint Sensor Driver.exe)
+        [**`Validity Fingerprint Sensor Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Validity Fingerprint Sensor Driver.exe>)
     </center>
     <center>
-        [**`Synaptics TouchPad Driver`**](drivers-tools/Synaptics TouchPad Driver.exe)
+        [**`Synaptics TouchPad Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Synaptics TouchPad Driver.exe>)
     </center>
     <center>
-        [**`Fresco Logic USB 3.0 Host Controller Driver`**](drivers-tools/Fresco Logic USB 3.0 Host Controller Driver.exe)
+        [**`Fresco Logic USB 3.0 Host Controller Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Fresco Logic USB 3.0 Host Controller Driver.exe>)
     </center>
     <center>
-        [**`Renesas Electronics USB 3.0 Host Controller Driver`**](drivers-tools/Renesas Electronics USB 3.0 Host Controller Driver.exe)
+        [**`Renesas Electronics USB 3.0 Host Controller Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Renesas Electronics USB 3.0 Host Controller Driver.exe>)
     </center>
 === "Драйверы сети"
     <center>
-        [**`Broadcom Wireless LAN Driver`**](drivers-tools/Broadcom Wireless LAN Driver.exe)
+        [**`Broadcom Wireless LAN Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Broadcom Wireless LAN Driver.exe>)
     </center>
     <center>
-        [**`Intel Wireless Drivers, Intel PROSet, and Intel My WiFi for Microsoft Windows 7`**](drivers-tools/Intel Wireless Drivers, Intel PROSet, and Intel My WiFi for Microsoft Windows 7.exe)
+        [**`Intel Wireless Drivers, Intel PROSet, and Intel My WiFi for Microsoft Windows 7`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Wireless Drivers, Intel PROSet, and Intel My WiFi for Microsoft Windows 7.exe>)
     </center>
     <center>
-        [**`Ralink 802.11 b/g/n WiFi Adapter`**](drivers-tools/Ralink 802.11 bgn WiFi Adapter.exe)
+        [**`Ralink 802.11 b/g/n WiFi Adapter`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Ralink 802.11 bgn WiFi Adapter.exe>)
     </center>
     <center>
-        [**`Realtek Local Area Network (LAN) Driver`**](drivers-tools/Realtek Local Area Network (LAN) Driver.exe)
+        [**`Realtek Local Area Network (LAN) Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Realtek Local Area Network (LAN) Driver.exe>)
     </center>
     <center>
-        [**`Ralink/Motorola Bluetooth Adapter Driver`**](drivers-tools/Ralink Motorola Bluetooth Adapter Driver.exe)
+        [**`Ralink/Motorola Bluetooth Adapter Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Ralink Motorola Bluetooth Adapter Driver.exe>)
     </center>
     <center>
-        [**`Atheros Bluetooth Driver`**](drivers-tools/Atheros Bluetooth Driver.exe)
+        [**`Atheros Bluetooth Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Atheros Bluetooth Driver.exe>)
     </center>
     <center>
-        [**`Intel PROSet Bluetooth Driver`**](drivers-tools/Intel PROSet Bluetooth Driver.exe)
+        [**`Intel PROSet Bluetooth Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel PROSet Bluetooth Driver.exe>)
     </center>
     <center>
-        [**`Intel Wireless Drivers for Microsoft Windows 7`**](drivers-tools/Intel Wireless Drivers for Microsoft Windows 7.exe)
+        [**`Intel Wireless Drivers for Microsoft Windows 7`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Intel Wireless Drivers for Microsoft Windows 7.exe>)
     </center>
     <center>
-        [**`Atheros 2011 Wireless LAN Driver`**](drivers-tools/Atheros 2011 Wireless LAN Driver.exe)
+        [**`Atheros 2011 Wireless LAN Driver`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/Atheros 2011 Wireless LAN Driver.exe>)
     </center>
 
 ### Утилиты
 
 === "BIOS"
     <center>
-        [**`HP Notebook System BIOS Update`**](drivers-tools/HP%20Notebook%20System%20BIOS%20Update.exe)
+        [**`HP Notebook System BIOS Update`**](https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP%20Notebook%20System%20BIOS%20Update.exe)
     </center>
 === "Диагностика"
     <center>
-        [**`HP UEFI Support Environment`**](drivers-tools/HP%20UEFI%20Support%20Environment.exe)
+        [**`HP UEFI Support Environment`**](https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP%20UEFI%20Support%20Environment.exe)
     </center>
 === "Диагностические утилиты"
     <center>
-        [**`HP Unified Extensible Firmware Interface (UEFI) Support Environment`**](<drivers-tools/HP Unified Extensible Firmware Interface (UEFI) Support Environment.exe>)
+        [**`HP Unified Extensible Firmware Interface (UEFI) Support Environment`**](<https://ibifs.ddns.net/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/%D0%94%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B/HP%20Pavilion%20dv6%206c51er/drivers-tools/HP Unified Extensible Firmware Interface (UEFI) Support Environment.exe>)
     </center>
 
 
