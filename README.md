@@ -7,7 +7,7 @@ Sources for ilyabot.space build with Material Docs (Markdown, CSS, Images etc)
 #### Install on Linux:
 ```bash
 python -m venv venv
-source venv/bin/activate
+source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 #### Install on Windows:
