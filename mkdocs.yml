@@ -94,8 +94,7 @@ markdown_extensions:
 # Page tree
 nav:
   - 'Обо мне': 'index.md'
-  - 'Блог':
-    - 'blog/index.md'
-  - 'Моё оборудование':
-    - 'myHardware/index.md'
+  - 'Блог': 'blog/index.md'
+  - 'Моё оборудование': 'myHardware/index.md'
+  - 'Фотографирование': 'photography/index.md'
   - 'Контакты': 'contacts/index.md'
