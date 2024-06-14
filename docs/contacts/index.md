@@ -4,6 +4,7 @@
 
 === "Соц. Сети и сервисы"
     <center>
+        ***[OpenVK](https://ovk.to/ilyabot)*** <br>
         *[ВК](https://vk.com/ilyabot2)* <br>
         [Mastodon](https://mastodon.ml/@IlyaBOT) <br>
         **[Steam](https://steamcommunity.com/id/IlyaBOTIlya/)**

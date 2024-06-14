@@ -38,6 +38,6 @@
     |  |  |  |  |  |
 === "Геймпады"
     | Nintendo | Sega | Sony | Xbox |
-    | :---: | :---: | :---: | :---: | :---: |
-    | Оригинальный японский геймпад от [SNES](https://ru.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) *(Подключен к компьютеру через Arduino UNO)* | *пусто* | *пусто* | *пусто* |
-    |  |  |  |  |
+    | :---: | :---: | :---: | :---: |
+    | Оригинальный японский геймпад от [SNES](https://ru.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) *(Подключен к компьютеру через Arduino UNO)* | *пусто* | *пусто* | **Xbox 360 USB Gamepad** (Довольно качественная китайская реплика на оригинал) |
+    |  |  |  |
