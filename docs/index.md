@@ -18,7 +18,7 @@
 
 | Имя  | День Рождения | Пол | Гендер | Город  | Тип личности | Тип личности **MBTI** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Илья _(Ничего себе...)_ | 10 Июля 2006 | Мужской | _Гетеро/Би_ :bootstrap-question-circle: | Донецк |   Технарь    |      **INTP-T**       |
+| Илья _(Ничего себе...)_ | 10 Июля 2006 | Мужской | _Гетеро/Гетерофлекс_ :bootstrap-question-circle: | Донецк |   Технарь    |      **INTP-T**       |
 
 ## Мои взгляды на вещи и мировоззрение
 
@@ -40,7 +40,7 @@ Hardware:
 |     **CPU**     | [AMD Ryzen 7 5700X 3.6 GHz](https://www.amd.com/en/products/cpu/amd-ryzen-7-5700x) | | | |
 | :-------------: | :-----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------: | :-------------------------------------------------------------------------------: | :------------------------------: |
 |     **GPU**     | [MSI GeForce RTX™ 3060 GAMING X TRIO 12G](https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G#FinAirflow-href) | | | |
-|     **RAM**     | [DDR4 GOODRAM IRDM PRO HOLLOW WHITE 16Gb x2](https://www.goodram.com/ru/products/irdm-pro-ddr4-hollow-white/) | | | |
+|     **RAM**     | [DDR4 GOODRAM IRDM PRO HOLLOW WHITE 16Gb x2 (32 Gb)](https://www.goodram.com/ru/products/irdm-pro-ddr4-hollow-white/) | | | |
 |     **SSD**     | 480GB SSD TEAM T253X5480G | 128GB NVMe SSD TEAM TM8FP6128G |
 |     **HDD**     | 1TB 2.5" HDD TOSHIBA MQ01ABD1 | 500 GB 3.5" HDD WD Blue WD5000AAKX-0 | 1TB RAID0 (500 GB 2.5" HDD Seagate ST500LT012 + 500 GB 2.5" HDD TOSHIBA MQ01ABD0) | 500 GB 2.5" HDD TOSHIBA MK5076GS |
 | **Motherboard** | [MSI MAG B550 TOMAHAWK](https://ru.msi.com/Motherboard/MAG-B550-TOMAHAWK) | | | |
@@ -53,7 +53,7 @@ Hardware:
 |       Устройство        | Модель | Модель |
 | :---: | :---: | :---: |
 |  **Основной монитор**   | Asus VG249Q (FullHD 144Hz) | |
-|   **Правый монитор**    | LG Flatron L1732S (1280x1024) | |
+|   **Правый монитор**    | LG Flatron L1732S (1280x1024 75Hz) | |
 |     **Клавиатура**      | Kraftway KB-9810 (PS/2) | |
 |        **Мышь**         | Defender Halo Z GM-430L | Wireless Optical Mouse MM-605 |
 |        **Аудио**        | Наушники De-Tech купленные в далёком 2015.<br>*Проапгрейжены новыми, более громкими и качественными динамиками.* | Остатки моей аудиосистемы JVC TH-S7 + китайский 2.1 усилитель (Bt, AUX, USB) на 200W (50+50+100) |
